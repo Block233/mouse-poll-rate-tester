@@ -20,12 +20,12 @@ A lightweight Windows tool that measures and displays your mouse's polling rate 
 
 ## Download
 
-Pre-built binaries are available on the [Releases](https://github.com/akiflax/mouse-poll-rate-tester/releases) page.
+Pre-built binaries are available on the [Releases](https://github.com/Block233/mouse-poll-rate-tester/releases) page.
 
 ## Build from Source
 
 ```sh
-git clone https://github.com/akiflax/mouse-poll-rate-tester.git
+git clone https://github.com/Block233/mouse-poll-rate-tester.git
 cd mouse-poll-rate-tester
 cargo build --release
 ```

@@ -20,12 +20,12 @@
 
 ## 下载
 
-预编译二进制文件可在 [Releases](https://github.com/akiflax/mouse-poll-rate-tester/releases) 页面获取。
+预编译二进制文件可在 [Releases](https://github.com/Block233/mouse-poll-rate-tester/releases) 页面获取。
 
 ## 从源码构建
 
 ```sh
-git clone https://github.com/akiflax/mouse-poll-rate-tester.git
+git clone https://github.com/Block233/mouse-poll-rate-tester.git
 cd mouse-poll-rate-tester
 cargo build --release
 ```
