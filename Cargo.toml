@@ -1,0 +1,23 @@
+[package]
+name = "mouse_poll_rate_tester"
+version = "0.5.0"
+edition = "2024"
+
+[dependencies]
+windows = { version = "0.60", features = [
+    "Win32_Foundation",
+    "Win32_Graphics_Gdi",
+    "Win32_UI_HiDpi",
+    "Win32_UI_Input",
+    "Win32_UI_WindowsAndMessaging",
+    "Win32_System_Performance",
+    "Win32_System_Threading",
+    "Win32_Security",
+    "Win32_System_LibraryLoader",
+] }
+
+[profile.release]
+opt-level = 3
+lto = true
+panic = "abort"
+strip = true
